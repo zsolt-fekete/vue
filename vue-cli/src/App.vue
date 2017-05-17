@@ -9,6 +9,10 @@
     export default {
       components: {
         appHeader:Header
+      },
+      created() {
+        this.$dispatch('initStocks')
       }
+
     }
 </script>
